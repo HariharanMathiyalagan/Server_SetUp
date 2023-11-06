@@ -14,7 +14,7 @@ public class Login_Onboarding {
 		this.driver = driver;
 	}
 
-	public int login(String value) throws MalformedURLException, IOException {
+	public void login(String value) throws MalformedURLException, IOException {
 		if (value.equals("Onboarding")) {
 			driver.get("https://qaapp.zaigotech.com/onboarding.html");
 		} else if (value.equals("Login")) {
